@@ -1,5 +1,6 @@
 const { nextui } = require('@nextui-org/react')
 
+
 /** @type {import('tailwindcss').Config} */
 export default {
 	content: [
@@ -13,7 +14,7 @@ export default {
 	darkMode: 'class',
 	plugins: [
 		nextui({
-			prefix: 'guatnext-ui',
+			prefix: 'dashboard-ui',
 			layout: {
 				spacingUnit: 4, // in px
 				disabledOpacity: 0.5, // this value is applied as opacity-[value] when the component is disabled

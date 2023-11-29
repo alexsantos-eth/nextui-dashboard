@@ -19,12 +19,10 @@ const Navbar: React.FC<NavbarProps> = () => {
 	return (
 		<Nav maxWidth="full" isBordered>
 			<NavbarBrand>
-				<Avatar size="sm" name="GuatNext" src={IMAGES.icon} />
-
 				<Spacer x={2} />
 
 				<View className="flex flex-col">
-					<Text className="font-bold">GuatNext</Text>
+					<Text className="font-bold">Dashboard</Text>
 					<Text className="text-xs text-default-500">Events and Bookings</Text>
 				</View>
 			</NavbarBrand>
