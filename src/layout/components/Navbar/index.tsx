@@ -2,7 +2,6 @@ import Text from 'components/Text'
 import View from 'components/View'
 import React from 'react'
 import useDarkMode from 'use-dark-mode'
-import IMAGES from 'utils/images'
 
 import MoonIcon from '@iconify/icons-solar/moon-bold-duotone'
 import SunIcon from '@iconify/icons-solar/sun-bold-duotone'
