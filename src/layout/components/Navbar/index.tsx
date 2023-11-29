@@ -19,8 +19,6 @@ const Navbar: React.FC<NavbarProps> = () => {
 	return (
 		<Nav maxWidth="full" isBordered>
 			<NavbarBrand>
-				{/* <Avatar size="sm" name="GuatNext" src={IMAGES.icon} /> */}
-
 				<Spacer x={2} />
 
 				<View className="flex flex-col">
